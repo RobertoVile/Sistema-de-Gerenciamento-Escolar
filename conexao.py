@@ -4,7 +4,7 @@ import sqlite3
 def conectar_banco():
     try:
         global conn
-        conn = sqlite3.connect('teste7.db')
+        conn = sqlite3.connect('escola.db')
         global cursor
         cursor = conn.cursor()
         print("Banco conectado com sucesso!")
